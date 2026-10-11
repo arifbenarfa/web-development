@@ -220,3 +220,18 @@ footer {
     }
 }
 
+.gallery-button {
+    margin-left: 0.75rem;
+    background-color: var(--blue);
+}
+
+.gallery-button:hover {
+    background-color: var(--green);
+}
+
+@media (max-width: 480px) {
+    .gallery-button {
+        margin: 0.75rem 0 0;
+    }
+}
+
