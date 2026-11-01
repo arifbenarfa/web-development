@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ville Heikkiniemi">
+    <meta name="description" content="Three photographs about studying web development and the setting around it.">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Photo Gallery | Centria Edu</title>
+</head>
+<body>
+    <!--
+        Centria Edu - Basics of Web Development
+        Original author: Ville Heikkiniemi
+        Modified by: Arif Ben Arfa
+        A4 layout revision: 2026-11-01
+    -->
+    <header class="site-header">
+        <div class="container">
+            <nav aria-label="Main navigation">
+                <a class="logo" href="index.html">centria <span>edu</span></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#topics">Topics</a></li>
+                    <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="gallery-page">
+        <section class="gallery-section" aria-labelledby="gallery-title">
+            <div class="container">
+                <p class="label">Photo collection</p>
+                <h1 id="gallery-title">Doing my assignment at home</h1>
+                <p class="gallery-intro">A look at working on my web development assignment at home: checking the requirements, opening the course template, and settling into my room to work. Select a photograph to open its original full-size file in a new tab.</p>
+
+                <div class="gallery-grid">
+                    <article class="photo-card photo-card-featured">
+                        <a class="photo-link" href="images/a4-requirements.jpeg" target="_blank" rel="noopener" aria-label="Open the original full-size photograph of the A4 requirements in a new tab">
+                            <img src="images/a4-requirements.jpeg" alt="A camera photograph of the A4 gallery assignment requirements displayed on a laptop screen.">
+                        </a>
+                        <div class="photo-caption">
+                            <p class="photo-index">01 / THE BRIEF</p>
+                            <h2>Checking the requirements</h2>
+                            <p>I keep the assignment instructions nearby while planning the pages.</p>
+                        </div>
+                    </article>
+
+                    <article class="photo-card">
+                        <a class="photo-link" href="images/teacher-a3-template.jpeg" target="_blank" rel="noopener" aria-label="Open the original full-size photograph of the teacher's A3 template in a new tab">
+                            <img src="images/teacher-a3-template.jpeg" alt="A camera photograph of the teacher's A3 HTML template open on GitHub in a browser.">
+                        </a>
+                        <div class="photo-caption">
+                            <p class="photo-index">02 / THE TEMPLATE</p>
+                            <h2>Opening the course template</h2>
+                            <p>The teacher's A3 example gives me a starting point for my work.</p>
+                        </div>
+                    </article>
+
+                    <article class="photo-card">
+                        <a class="photo-link" href="images/study-room-window.jpeg" target="_blank" rel="noopener" aria-label="Open the original full-size photograph of a quiet study room in a new tab">
+                            <img src="images/study-room-window.jpeg" alt="A quiet room at night, with a curtained window, radiator, and television.">
+                        </a>
+                        <div class="photo-caption">
+                            <p class="photo-index">03 / THE WORKSPACE</p>
+                            <h2>Working from home</h2>
+                            <p>My room is the setting where I read, plan, and build the assignment.</p>
+                        </div>
+                    </article>
+                </div>
+                <p class="gallery-back"><a href="index.html">&larr; Back to Home</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>Original author: Ville Heikkiniemi <span aria-hidden="true">·</span> Modified by: Arif Ben Arfa</p>
+            <a href="index.html">Home <span aria-hidden="true">↗</span></a>
+        </div>
+    </footer>
+</body>
+</html>
